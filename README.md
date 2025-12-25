@@ -2,7 +2,7 @@
 
 A modern SaaS platform for AI-powered voice coaching that boosts student engagement by 45%. Built with React.js, Node.js, OpenAI Whisper ASR, and Google Gemini multimodal LLM.
 
-## ✨ Features
+## Features
 
 - 🔐 **User Authentication** - Secure JWT-based authentication system
 - 🎙️ **Audio Upload** - Multi-step audio upload with progress tracking
@@ -12,7 +12,7 @@ A modern SaaS platform for AI-powered voice coaching that boosts student engagem
 - 📜 **Session History** - Track all your voice coaching sessions
 - 🎨 **Modern UI** - Beautiful, responsive design with Tailwind CSS
 
-## 🚀 Tech Stack
+## Tech Stack
 
 ### Frontend
 - React 18 with TypeScript
@@ -30,7 +30,7 @@ A modern SaaS platform for AI-powered voice coaching that boosts student engagem
 - OpenAI Whisper API for transcription
 - Google Gemini API for AI analysis
 
-## 📦 Installation
+## Installation
 
 1. **Clone the repository**
    ```bash
@@ -62,15 +62,7 @@ A modern SaaS platform for AI-powered voice coaching that boosts student engagem
    - Frontend on `http://localhost:3000`
    - Backend on `http://localhost:5000`
 
-## 🔑 API Keys Required
-
-1. **OpenAI API Key** - For Whisper transcription
-   - Get it from: https://platform.openai.com/api-keys
-
-2. **Google Gemini API Key** - For AI analysis
-   - Get it from: https://makersuite.google.com/app/apikey
-
-## 📁 Project Structure
+## Project Structure
 
 ```
 VoiceAssistant/
@@ -90,7 +82,7 @@ VoiceAssistant/
 └── package.json       # Root package.json
 ```
 
-## 🎯 Usage
+## Usage
 
 1. **Register/Login** - Create an account or sign in
 2. **Upload Audio** - Upload your speech recording (MP3, WAV, OGG, WebM)
@@ -99,13 +91,11 @@ VoiceAssistant/
 5. **Review Results** - See detailed scores, strengths, and recommendations
 6. **Track Progress** - View all your sessions in the history page
 
-## 🛠️ Development
+## Development
 
 - Frontend dev server: `npm run dev:frontend`
 - Backend dev server: `npm run dev:backend`
 - Build for production: `npm run build`
-
-## 📝 API Endpoints
 
 ### Authentication
 - `POST /api/auth/register` - Register new user
@@ -122,28 +112,10 @@ VoiceAssistant/
 - `POST /api/analysis/generate/:sessionId` - Generate AI feedback
 - `GET /api/analysis/feedback/:sessionId` - Get feedback
 
-## 🎨 Screenshots
-
 The application features a modern, gradient-based UI with:
 - Clean authentication pages
 - Intuitive dashboard
 - Multi-step upload process
 - Comprehensive analysis results
 - Session history tracking
-
-## 📄 License
-
-MIT License - feel free to use this project for your portfolio or learning purposes.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📧 Contact
-
-For questions or support, please open an issue on GitHub.
-
----
-
-**Built with ❤️ for showcasing AI-powered voice coaching capabilities**
 
